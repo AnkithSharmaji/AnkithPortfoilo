@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankith - Developer-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(24, 22, 22);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: antiquewhite;
+        }
+
+        nav ul li a:hover {
+            color: aquamarine;
+            font-size: 1.2rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(59, 170, 114);
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 120px 0;
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            /* margin: 70px 0; */
+        }
+
+        .leftsection .butons {
+            padding: 11px;
+            background-color: rgb(54, 53, 53);
+            color: rgb(195, 234, 20);
+            border: 2px solid black;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: grabbing;
+        }
+
+        .butons a {
+            color: rgb(166, 225, 57); 
+            text-decoration: none; 
+        }
+
+        .butons a:hover{
+            font-size: 2rem;
+        }
+
+        .leftsection .btn {
+            background-color: rgb(54, 53, 53);
+            color: rgb(193, 218, 84);
+            padding: 11px;
+            border: 2px solid black;
+            font-size: 15px;
+            cursor: grabbing;
+
+        }
+
+        .btn a{
+            color: rgb(166, 225, 57); 
+            text-decoration: none; 
+        }
+
+        .btn a:hover{
+            font-size: 2rem;
+        }
+
+        .leftsection .btns {
+            background-color: rgb(54, 53, 53);
+            color: rgb(193, 218, 84);
+            padding: 11px;
+            border: 2px solid black;
+            font-size: 15px;
+            cursor: grabbing;
+        }
+
+        
+        .leftsection .but {
+            background-color: rgb(54, 53, 53);
+            color: rgb(193, 218, 84);
+            padding: 11px;
+            border: 2px solid black;
+            font-size: 15px;
+            cursor: grabbing;
+        }
+
+        .rightsection img {}
+
+        .grey {
+            color: yellow;
+        }
+
+        .text-purple {
+            color: orange;
+        }
+
+        #element {
+            color: yellow;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 2rem;
+        }
+
+        .secondSection .box {
+            background: wheat;
+            width: 85vw;
+            height: 2px;
+            margin: 58px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 89px;
+            width: 1px;
+            background-color: yellowgreen;
+            margin: 0 130px;
+        }
+
+        .image-top {
+            width: 50px;
+            position: relative;
+            top: -50px;
+            left: -10px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 45px;
+            width: 170px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 50px;
+            color: rgb(235, 173, 49);
+            width: 190px;
+            font-size: 10px;
+        }
+
+        /* footer {
+            background-color: rgb(36, 38, 43);
+            height: auto;
+
+        }
+
+        .footer {
+            display: flex;
+            margin: 30px 200px;
+            justify-content: space-evenly;
+        } */
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"> Ankith's Portfoilo </div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home </a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="grey">Ankith</span>
+
+                <div>and I am a Fervent</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="butons">
+                        <a href="Ankit Resume.pdf" target="_blank">View Resume</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://github.com/AnkithSharmaji" target="_blank">Visit Github</a>
+                    </button>
+                    <p>
+                    <button class="btn">
+                        <a href="https://www.linkedin.com/in/ankithsharmaa/" target="_blank">Visit LinkedIn</a>
+                    </button>
+                    <button class="btn">
+                        <a href="https://leetcode.com/ankitsumitsharma80/" target="_blank">Visit LeetCode</a>
+                    </button>
+                </div>
+            </div>
+            <div class="rightsection"><img src="as.png" alt=""></div>
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <span class="text-purple"> What have I done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="training.png" alt="">
+                    <div class="vertical-title">
+                        Internship - VI Solutions - (2021)
+                    </div>
+                    <div class="vertical-desc">
+                        <p> * I actively contributed to IoT projects, including a smart home automation system and
+                            real-time
+                            environmental monitoring.</p>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="ge.png" alt="">
+                    <div class="vertical-title">
+                        GET - Microland (2022)
+                    </div>
+                    <div class="vertical-desc">
+                        <p> * As a GET at Microland, I received extensive training in various cutting-edge technologies,
+                            including Linux, AWS, and more. </p>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="se.png" alt="">
+                    <div class="vertical-title">
+                        Service Engineer - Microland <div>(2022 - 2023)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        <p> * Experienced in Application Recovery and database management, specializing in recovering
+                            applications and
+                            automating processes.</p>
+                        <p>* Minimized downtime and maximizedproductivity through proactive issue resolution and
+                            optimized strategies.</p>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="sr.png" alt="">
+                    <div class="vertical-title">
+                        Sr. Service Engineer -Microland <div> (2023)</div>
+                    </div>
+                    <div class="vertical-desc">
+                        <p> * Created RAG reports for multiple customers, providing comprehensive insights into
+                            performance and highlighting
+                            areas of concern for effective decision-making.</p>
+                        <p> * Demonstrated success in optimizing database operations and resolving issues for Central
+                            Hudson, ROSS, and
+                            Hyundai, ensuring timely and efficient operations.</p>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+    </main>
+
+    <!-- <footer>
+        <div class="flex">
+            <div class="footer-First">
+                <h3>Ankith's  Portfoilo</h3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="Third"></div>
+            <div class="Fourth"></div>
+        </div>
+    </footer> -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['DBA', 'Web Developer',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
